@@ -12,7 +12,6 @@ def performance_check(value):
         return result
     return wrapper
 
-
 @performance_check
 def execution():
     for i in range(data):
